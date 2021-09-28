@@ -12,7 +12,7 @@ button = ClickableTurtle()
 
 #set up players
 player_1 = KeyboardTurtle(window)
-player_2 = KeyboardTurtle(window, "w", "d")
+player_2 = KeyboardTurtle(window, "w", "d","a", "s")
 
 player_1.goto(100,0)
 
